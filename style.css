@@ -64,7 +64,23 @@ table th {
   height: 1px;
 }
 
-div#line1 span#a {
+div.ghosts span#a {
+  display: inline;
+}
+
+div.ghosts:hover span#a {
+  display: none;
+}
+
+div.ghosts span#b {
+  display: none;
+}
+
+div.ghosts:hover span#b {
+  display: inline;
+}
+
+/* div#line1 span#a {
   display: inline;
 }
 
@@ -110,4 +126,4 @@ div#line3 span#b {
 
 div#line3:hover span#b {
   display: inline;
-}
+} */
