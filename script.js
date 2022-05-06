@@ -20,7 +20,6 @@ function howAmI(name) {
     document.getElementById('badBtn').textContent = 'how are you?';
 
     let state = prompt(` hey ${name}, how are you?`);
-s
     if (state == null || state == "" || state == "your state goes here!") {
         document.getElementById('badBtn').textContent = 'try again';
         return;
